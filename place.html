@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles_place.css">
+
+    <!-- google font raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- google font lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="icon" href="./images/logo/favicon.svg">
+    <link rel=”mask-icon” href="./images/logo/favicon.svg">
+    <link rel="apple-touch-icon" href="./images/logo/favicon.svg">
+
+    <!-- CSS FOR THE FLATPICKR CDN-->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"> -->
+
+    <!-- CSS FOR THE FLATPICKR CDN-->
+    <link rel="stylesheet" href="./css/flatpickr_default.css">
+
+    <!-- CSS FOR THE EASEPICK -->
+    <script src="https://cdn.jsdelivr.net/npm/@easepick/bundle@1.2.1/dist/index.umd.min.js"></script>
+
+    <!-- CSS FOR THE DATE PICKER -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <title>myplace</title>
+</head>
+
+<body>
+    <div class="section-slider">
+        <!-- <div class="slider-counter">
+            <p>01/05</p>
+        </div> -->
+        <div class="bullet-container"></div>
+        <div class="slider-wrapper">
+            <i class="fa-solid fa-arrow-left arrow-left"></i>
+            <div class="slides-container" id="slides-container">
+                <img class="slider-image" src="" alt="" /><!-- dynamically generated slides will be inserted here -->
+            </div>
+            <i class="fa-solid fa-arrow-right arrow-right"></i>
+            <i class="fa-solid fa-xmark close-cross"></i>
+        </div>
+    </div>
+    <header class="header">
+        <a href="./index.html">
+            <img class="header-logo" src="./images/logo/logo.svg" alt="logo myplace" />
+        </a>
+        <div class="userMenu-wrapper" id="userMenuWrapper">
+            <div class="userMenu-burger">
+                <span class="stroke_1"></span>
+                <span class="stroke_2"></span>
+                <span class="stroke_3"></span>
+            </div>
+            <i class="fa-solid fa-user userMenu-icon"></i>
+        </div>
+    </header>
+    <hr class="separator" />
+    <div class="userMenu-modal-background" id="userMenuModalBackground">
+        <div class="userMenu-modal-ctnr" id="userMenuModalWindow">
+            <ul>
+                <li class="subscribeBtn">Inscription</li>
+                <li>Connexion</li>
+                <hr class="separator" />
+                <li>Help</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="form-container">
+
+        <form class="formSubscribe" id="formSubscribe" novalidate>
+            <div class="form-title">
+                <h2>Créer un nouveau compte</h2>
+            </div>
+            <div class="form-control">
+                <label>Choisir une adresse e-mail</label>
+                <input type="email" id="emailSubscribe" class="emailSubscribe" placeholder="Votre adresse mail">
+                <i class="fas fa-check-circle form-icon"></i>
+                <i class="fas fa-exclamation-circle form-icon"></i>
+                <small class="errorMessage">Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Choisir un mot de passe</label>
+                <input type="password" id="pwSubscribe" class="pwSubscribe" placeholder="mot de passe">
+                <i class="fas fa-check-circle form-icon"></i>
+                <i class="fas fa-exclamation-circle form-icon"></i>
+                <small class="errorMessage">Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Confirmer le mot de passe</label>
+                <input type="password" id="pwCheckSubscribe" class="pwCheckSubscribe" placeholder="mot de passe">
+                <i class="fas fa-check-circle form-icon"></i>
+                <i class="fas fa-exclamation-circle form-icon"></i>
+                <small class="errorMessage">Error message</small>
+            </div>
+            <button class="btnSubmit" id="btnSubmit">S'inscrire</button>
+        </form>
+    </div>
+    <div class="confirmation-background">
+        <div class="confirmation-box">
+            <h2>Votre compte a été créé!</h2>
+            <button id="confirmationBtn">Ok</button>
+        </div>
+    </div>
+
+    <div class="modal-reservation-bg hidden">
+        <div class="modal-reservation-wrapper">
+            <h4 class="modal-reservation-title">Attention!</h4>
+            <p class="modal-reservation-content">Veuillez saisir le nombre de voyageur pendant votre séjour.</p>
+            <span class="fa-solid fa-xmark modal-reservation-btn-cross"></span>
+        </div>
+    </div>
+
+    <main>
+        <section class="section-place">
+        </section>
+    </main>
+    <hr class="separator" />
+    <footer class="footer">
+        <img class="footer-logo" src="./images/logo/myplace_logo.svg" alt="logo de Mypace" />
+        <div class="about">
+            <h2>A propos</h2>
+            <ul class="about-list">
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </div>
+        <div class="lodges">
+            <h2>Nos hébergements</h2>
+            <ul class="lodges-list">
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </div>
+        <div class="assistance">
+            <h2>Assistance</h2>
+            <ul class="assistance-list">
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <!-- SCRIPT FOR DATE PICKER -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/fr.js"></script>
+
+    <!-- SCRIPT FOR THE FUNCTIONS -->
+    <script src="./js/placeFetch.js"></script>
+    <script src="./js/userMenu.js"></script>
+    <script src="./js/galleryHandler.js"></script>
+    <script src="./js/formValidation.js"></script>
+
+</html>

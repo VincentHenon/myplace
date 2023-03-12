@@ -1,0 +1,891 @@
+[
+  {
+    "id": "c67ab8a7",
+    "title": "Appartement cosy",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+    ],
+    "description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+    "host": {
+      "name": "Nathalie Jean",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
+      ,"story": "Hello, moi  c'est Nathalie! J'ai fait en sorte que votre séjour se passe comme dans un rêve. Appelez moi lorsque vous arrivez pour vous que je puisse vous donner les clefs et faire le tour de l'appartement. J'habite dans le coin en cas de problème. Bon séjour à Paris!"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "5",
+    "location": "Paris 17e",
+    "equipments": [
+      "Équipements de base",
+      "Micro-Ondes",
+      "Douche italienne",
+      "Frigo",
+      "WIFI"
+    ],
+    "tags": [
+      "cosy",
+      "cheap",
+      "animals",
+      "city",
+      "wifi"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "165",
+    "cleaningFee": "25"
+  },
+  {
+    "id": "b9123946",
+    "title": "Magnifique appartement proche de la mer",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
+    ],
+    "description": "Profitez du charme de la vie marseillaise dans un magnifique appartement. A 3 minutes à pied de la mer, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
+    "host": {
+      "name": "Della Case",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg",
+      "story": "Bonjour, je m'appelle Della. Je serai votre host le temps de votre séjour. Je resterai à votre disposition si vous avez besoin de quoique ce soit. Je suis dans le même quartier.J'espère que vous passerez un bon moment dans ce magnifique appartement.À bientôt!"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "4",
+    "location": "Marseille",
+    "equipments": [
+      "Parking",
+      "Sèche Cheveux",
+      "Machine à laver",
+      "Wi-fi",
+      "Cuisine équipée",
+      "Télévision"
+    ],
+    "tags": [
+      "trendy",
+      "beach",
+      "city",
+      "wifi"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra",
+      "Très sympa! Dommage que le wifi marchait mal"
+    ],
+    "price": "120",
+    "cleaningFee": "30"
+  },
+  {
+    "id": "46d188c5",
+    "title": "Studio de charme",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-4.jpg"
+    ],
+    "description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
+    "host": {
+      "name": "Franck Maher",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
+      ,"story": "Bienvenue à Paris! Je m'appelle Franck. Vous serez dans le meilleur quartier de la capitale: il y a plein de petits magasins super sympas, de bistrots typiques ou des petits restaurants très charmants où manger le soir dans le quartier! N'hésitez pas à me demander les adresses si cela vous interesse. Lorsque vous aurez réserver le studio je vous enverai mon mail et mon numéro de téléphone! On pourra ainsi communiquer et s'organiser pour votre arriévée. À très vite!"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "3",
+    "location": "Paris 20e",
+    "equipments": [
+      "Wi-fi",
+      "Cuisine équipée",
+      "Télévision",
+      "Sèche Cheveux"
+    ],
+    "tags": [
+      "city",
+      "wifi",
+      "animals",
+      "trendy"
+
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra",
+      "Que du bonheur!"
+    ],
+    "price": "60",
+    "cleaningFee": "5"
+  },
+  {
+    "id": "7af00cd6",
+    "title": "Nid douillet au coeur de Lyon",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg"
+    ],
+    "description": "Venez découvrir Lyon en séjournant dans ce nid douillet au coeur du 1er. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans une des plus grandes villes de la gastronomie française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life lyonnaise à seulement 5 minutes de l'appartement.",
+    "host": {
+      "name": "Rebecca Chloée",
+      "story": "Bonjour, je m'appelle Rebecca et je serai à votre disposition durant votre séjour. À votre demande, je pourrai vous envoyer un plan avec les bonnes adresses du quartier ou alors un plan de la ville qui détaille les lieux touristiques. Une fois sur place, je vous donnerai mon numéro de téléphone au cas où vous auriez besoin de quoique ce soit. Je suis dans le même quartier. Passez un bon séjour dans cette magnifique ville. À très vite!",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "3",
+    "location": "Lyon 1er",
+    "equipments": [
+      "Micro-Ondes",
+      "Wi-fi",
+      "Chambre Séparée",
+      "Climatisation",
+      "Télévision"
+    ],
+    "tags": [
+      "city",
+      "wifi",
+      "romance",
+      "luxe"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra",
+      "Un peu cher, mais dans l'ensemble nous étions ravis",
+      "On a adoré notre séjour et on a découvert une ville incroyable!",
+      "Un peu cher mais la qualité est là"
+    ],
+    "price": "100",
+    "cleaningFee": "10"
+  },
+  {
+    "id": "0979876d",
+    "title": "Appartement de Standing",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-5.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg"
+    ],
+    "description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le centre ville, vous déplacer sera un véritable jeu d'enfant.",
+    "host": {
+      "name": "Victor Bienheureux",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
+      ,"story": "Hello, je m'appelle Victor et je serai votre host pendant votre séjour à Rennes! VOus allez adorer cet appartement! Ma femme et moi avons fait construire ce loft pour rendre la vie du quotidien extraordinaire! Le confort est optimal je vous le garantis. Lorsque vous arriverez, je vous indiquerai où est le coffre pour récupérer la clef et le code pour désactiver la sécurité. Rennes est petite dans sa taille mais reste très dynamique!"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "5",
+    "location": "Rennes",
+    "equipments": [
+      "Frigo Américain",
+      "Sèche Cheveux",
+      "Wi-fi",
+      "Chambre Séparée",
+      "Parking"
+    ],
+    "tags": [
+      "luxe",
+      "city",
+      "trendy",
+      "wifi",
+      "animals",
+      "bath"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "130",
+    "cleaningFee": "20"
+  },
+  {
+    "id": "f72a452f",
+    "title": "Studio d'artiste",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg"
+    ],
+    "description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
+    "host": {
+      "name": "Line Rolland",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
+      ,"story": "Bonjour, je suis Line et je suis ravie de vous acceuillir dans ce studio d'artiste! Idéalement situé, vous vous imprégnerez du charme inimitable de ce quartier parisien! Vous trouverez sur la table du séjour, les adresses que j'ai personnellement séléctionnées pour que votre séjour soit aussi magique que possible! Bon séjour!"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "5",
+    "location": "Paris",
+    "equipments": [
+      "Chambre Séparée",
+      "Parking"
+    ],
+    "tags": [
+      "cheap",
+      "city",
+      "familly",
+      "animals"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "150",
+    "cleaningFee": "30"
+  },
+  {
+    "id": "b4c67936",
+    "title": "Cheap - Studio",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-4.jpg"
+    ],
+    "description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions marseillaises. Idéalement situé près du centre ville, vous accéderez très rapidement à tous les points touristiques de Marseille.",
+    "host": {
+      "name": "Hugo Perrier",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "3",
+    "location": "Marseille",
+    "equipments": [
+      "Salle de bains",
+      "Frigo",
+      "Wi-fi",
+      "Sèche Cheveux",
+      "Bureau",
+      "Parking"
+    ],
+    "tags": [
+      "cheap",
+      "wifi",
+      "romance",
+      "bath",
+      "city"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra",
+      "Incroyable pour le prix! On recommande chaudement!"
+    ],
+    "price": "110",
+    "cleaningFee": "15"
+  },
+  {
+    "id": "bc6f7112",
+    "title": "Superbe appartement proche Tour Eiffel",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-5.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-6.jpg"
+    ],
+    "description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goût. La taille des pièces vous fera douter que vous êtes à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. À vous de venir découvrir Paris !",
+    "host": {
+      "name": "Sébastien Fournier",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "5",
+    "location": "Paris 6e",
+    "equipments": [
+      "Wi-fi",
+      "Sèche Cheveux",
+      "Machine à laver",
+      "Parking",
+      "Lit King Size",
+      "Ascenseur"
+    ],
+    "tags": [
+      "luxe",
+      "city",
+      "wifi",
+      "romance",
+      "bath"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!"
+    ],
+    "price": "80",
+    "cleaningFee": "10"
+  },
+  {
+    "id": "cb2f9222",
+    "title": "Suite familiale",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-5.jpg"
+    ],
+    "description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
+    "host": {
+      "name": "Adrien Chiran",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "4",
+    "location": "Paris",
+    "equipments": [
+      "Climatisation",
+      "Machine à laver",
+      "Sèche Cheveux",
+      "Wi-fi",
+      "Parking"
+    ],
+    "tags": [
+      "luxe",
+      "animals",
+      "familly",
+      "city",
+      "wifi"
+    ],
+    "review": [
+      "On a adoré notre séjour! Merci!"
+    ],
+    "price": "170",
+    "cleaningFee": "20"
+  },
+  {
+    "id": "d60ca600",
+    "title": "Appartement moderne sur parc",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-4.jpg"
+    ],
+    "description": "Respirer en plein coeur de Lyon ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux. Notre appartement est également idéalement situé au coeur du vieux Lyon. Proche du métro, vous pourrez découvrir Lyon sans effort !",
+    "host": {
+      "name": "Adrien Chiran",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "3",
+    "location": "Lyon",
+    "equipments": [
+      "Vue Parc",
+      "Chauffage",
+      "Sèche linge",
+      "Sèche Cheveux",
+      "Wi-fi",
+      "Ascenseur"
+    ],
+    "tags": [
+      "familly",
+      "city",
+      "bath",
+      "wifi",
+      "animals"
+    ],
+    "review": [
+      "Super!",
+      "Nous avons pu ammener notre chien avec nous et c'est suffisemment rare pour le noter"
+    ],
+    "price": "60",
+    "cleaningFee": "10"
+  },
+  {
+    "id": "2cf259e1",
+    "title": "Charmant Studio Rennes",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-4.jpg"
+    ],
+    "description": "Situé en plein coeur de Rennes, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine toute équipée est particulièrement pratique.",
+    "host": {
+      "name": "Victor Moran",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "4",
+    "location": "Rennes",
+    "equipments": [
+      "Clic-clac",
+      "Four",
+      "Sèche Cheveux",
+      "Wi-fi"
+    ],
+    "tags": [
+      "cheap",
+      "city",
+      "wifi"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra",
+      "Vraiment pas cher."
+    ],
+    "price": "120",
+    "cleaningFee": "10"
+  },
+  {
+    "id": "5323c29b",
+    "title": "Studio fonctionnel République",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg"
+    ],
+    "description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
+    "host": {
+      "name": "Sarah Devit",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "3",
+    "location": "Paris 3e",
+    "equipments": [
+      "Rangements",
+      "Lit",
+      "Sèche Cheveux",
+      "Wi-fi",
+      "TV",
+      "Bouilloire"
+    ],
+    "tags": [
+      "city",
+      "familly",
+      "romance",
+      "wifi",
+      "animals",
+      "trendy",
+      "bath"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra",
+      "Tout a été parfait, l'hôte est super sympa",
+      "J'ai adoré notre séjour et mes enfants également",
+      "Le wifi marchait par intermittence, dommage! Et on était un peu serré avec les enfants mais sinon c'est idéalement situé pour découvrir Paris"
+    ],
+    "price": "150",
+    "cleaningFee": "30"
+  },
+  {
+    "id": "af6d2d48",
+    "title": "Bungalow dans la forêt",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-5.jpg"
+    ],
+    "description": "Quittez Paris pour vous mettre au vert. À seulement 30 minutes de la Gare du Nord, venez découvrir la forêt d'Ecouen directement depuis la fenêtre de votre bungalow. Entièrement équipé, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenêtres, et profitez du chant des oiseaux.",
+    "host": {
+      "name": "Sarah Devit",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "5",
+    "location": "Ecouen",
+    "equipments": [
+      "SDB",
+      "Cuisine équipée",
+      "Toilettes sèches",
+      "Frigo",
+      "Bouilloire"
+    ],
+    "tags": [
+      "countryside",
+      "wifi",
+      "familly",
+      "romance",
+      "bath",
+      "animals"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "90",
+    "cleaningFee": "35"
+  },
+  {
+    "id": "7cbb378e",
+    "title": "Grande Maison proche banlieue",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-2.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-5.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-6.jpg"
+    ],
+    "description": "Vous chercher un endroit pour fêter un anniversaire entre amis tout en restant proche de Paris ? Ne cherchez plus ! Entièrement équipée, cette maison est l'endroit idéal pour se regrouper.",
+    "host": {
+      "name": "Karen Guillet",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "4",
+    "location": "Arnouville",
+    "equipments": [
+      "SDB",
+      "Cuisine équipée",
+      "Frigo",
+      "Bouilloire",
+      "WIFI",
+      "Télévision",
+      "Cintres",
+      "Équipements de base"
+    ],
+    "tags": [
+      "countryside",
+      "familly",
+      "wifi",
+      "animals",
+      "trendy"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra",
+      "Pour se mettre au vert et couper le stress de la ville. Recommande pour souffler le temps d'un weekend"
+    ],
+    "price": "75",
+    "cleaningFee": "10"
+  },
+  {
+    "id": "ba55a0cc",
+    "title": "Maison T5 - Le Vésinet",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-5.jpg"
+    ],
+    "description": "Maison T5. Idéale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
+    "host": {
+      "name": "Karen Guillet",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "3",
+    "location": "Arnouville",
+    "equipments": [
+      "Bouilloire",
+      "SDB",
+      "Cuisine équipée",
+      "Frigo",
+      "WIFI",
+      "TV",
+      "Cintres",
+      "Four",
+      "Micro-Ondes",
+      "Parking"
+    ],
+    "tags": [
+      "countryside",
+      "animals",
+      "wifi",
+      "cheap",
+      "familly"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "150",
+    "cleaningFee": "30"
+  },
+  {
+    "id": "1e181317",
+    "title": "Loft de Luxe à la Défense",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg"
+    ],
+    "description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
+    "host": {
+      "name": "Julie Donatella",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
+    },
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "type": "Appartement",
+    "rating": "3",
+    "location": "Paris",
+    "equipments": [
+      "Baie vitrée",
+      "Télévision",
+      "Four",
+      "Frigo",
+      "Wi-fi",
+      "Micro-Ondes",
+      "Parking"
+    ],
+    "tags": [
+      "luxe",
+      "romance",
+      "familly",
+      "bath",
+      "wify",
+      "city"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!"
+    ],
+    "price": "150",
+    "cleaningFee": "30"
+  },
+  {
+    "id": "1e180563",
+    "title": "Charmant apt aux portes de Paris",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg"
+    ],
+    "description": "Ce charmant appartement offre des prestations de luxe. Idéalement placé, vous pourrez accéder à toutes les attractions touristiques du coin.",
+    "host": {
+      "name": "Julie Donatella",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
+    },
+    "type": "Appartement",
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "rating": "4",
+    "location": "Rochefourchat",
+    "equipments": [
+      "Télévision",
+      "Four",
+      "Frigo",
+      "Hotte",
+      "Wi-fi",
+      "Micro-Ondes"
+    ],
+    "tags": [
+      "luxe",
+      "familly",
+      "wify",
+      "bath",
+      "animals",
+      "countryside"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "150",
+    "cleaningFee": "30"
+  },
+  {
+    "id": "2139a317",
+    "title": "Cheap - Chambre Paris 20",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg"
+    ],
+    "description": "Cette chambre dispose de toutes les facilités nécessaires. Proche métro et commerces.",
+    "host": {
+      "name": "Hugo Perrier",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
+    },
+    "type": "Appartement",
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "rating": "2",
+    "location": "Paris 20e",
+    "equipments": [
+      "Bouilloire",
+      "Wi-fi",
+      "Micro-Ondes"
+    ],
+    "tags": [
+      "cheap",
+      "wifi",
+      "city"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "85",
+    "cleaningFee": "10"
+  },
+  {
+    "id": "6ff132c6",
+    "title": "Charmant studio",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-3.jpg"
+    ],
+    "description": "Ce studio décoré avec goût sera votre nid douillet après une longue journée passée à découvrir Marseille.",
+    "host": {
+      "name": "Michel Romy",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
+    },
+    "type": "Appartement",
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "rating": "4",
+    "location": "Marseille",
+    "equipments": [
+      "Équipements de base",
+      "Four",
+      "Frigo",
+      "Wi-fi",
+      "Micro-Ondes"
+    ],
+    "tags": [
+      "cheap",
+      "wifi",
+      "city"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "150",
+    "cleaningFee": "30"
+  },
+  {
+    "id": "cb02d69b",
+    "title": "Magnifique appartement Marseille",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg"
+    ],
+    "description": "Au coeur du quartier historique de Marseille, cet appartement est idéal pour un couple à la découverte de la cité phocéenne. Situé à côté du port de plaisance, il est à 5 minutes de la plage.",
+    "host": {
+      "name": "Nathalie Jean",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
+    },
+    "type": "appartement",
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "rating": "4",
+    "location": "Marseille",
+    "equipments": [
+      "Wi-fi",
+      "Équipements de base",
+      "Micro-Ondes",
+      "Frigo",
+      "Baignoire"
+    ],
+    "tags": [
+      "city",
+      "beach",
+      "luxe",
+      "wifi",
+      "trendy",
+      "bath"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "125",
+    "cleaningFee": "20"
+  },
+  {
+    "id": "ljq4je65",
+    "title": "Appartement sympa à Fontenay-Sous-Bois",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-3.jpg"
+    ],
+    "description": "En plein centre de Fontenay et à 2min de la gare RER, cet appartement est très pratique si vous voulez passer du temps dans la région parisienne ou même visiter Paris à moindre frais. Vous êtes à 15min de la capitale en voiture et 10min en RER.",
+    "host": {
+      "name": "Nathalie Jean",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
+    },
+    "type": "appartement",
+    "details": "4 voyageurs • 2 chambres • 3 lits • 1 salle de bain",
+    "rating": "4",
+    "location": "Fontenay-Sous-Bois",
+    "equipments": [
+      "Wi-fi",
+      "Équipements de base",
+      "Micro-Ondes",
+      "Frigo",
+      "Baignoire"
+    ],
+    "tags": [
+      "city",
+      "beach",
+      "luxe",
+      "wifi",
+      "trendy",
+      "bath"
+    ],
+    "review": [
+      "Super!",
+      "On a adoré notre séjour! Merci!",
+      "On reviendra"
+    ],
+    "price": "125",
+    "cleaningFee": "20"
+  }
+
+
+]
