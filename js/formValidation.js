@@ -7,6 +7,12 @@ const formContainer = document.querySelector(".form-container")
 const formControl = document.getElementsByClassName("form-control")
 const confirmation = document.querySelector(".confirmation-background")
 const confirmationButton = document.querySelector("#confirmationBtn")
+const eyePW = document.getElementById("eyePW")
+const eyeSlashPW = document.getElementById("eyeSlashPW")
+const eyePWCheck = document.getElementById("eyePWCheck")
+const eyeSlashPWCheck = document.getElementById("eyeSlashPWCheck")
+const PWIcons = document.querySelector(".PW-icons")
+const users = [] //empty array
 
 let isSubscribeMenuOpen = false
 let emailValid = false
@@ -117,7 +123,7 @@ function isPwCheckValid() {
 }
 
 //Dynamically transform not validated inputs in red and disply error messages
-function setErrorFor(input, message, status) {
+function setErrorFor(input, message) {
     const formControl = input.parentElement //form-control class associated to the input
     const small = formControl.querySelector("small")
 
@@ -149,9 +155,6 @@ function isFormValid() {
     console.log("emailValid is ", emailValid)
     if (emailValid && pwValid && pwCheckValid) {
         saveUser()
-        closeForm()
-        openConfirmation()
-        resetForm()
     }
 }
 
@@ -162,27 +165,107 @@ function resetForm() {
     pwCheckValid = false
 }
 
-function saveUser(user) {
+
+function saveUser() {
+
+    let id = 0 //first id
+
+    // function to save a user from the inputs
+    function createUser(email, password) {
+        const user = {
+            id: id++,
+            email: email,
+            password: password
+        }
+        return user
+    }
+
+    password = pwCheckSubscribe.value
+    email = emailSubscribe.value
+    const newUser = createUser(email, password)
+
+    // If no user in the database thren...
+    if (users.length === 0) { 
+        users.push(newUser)
+        closeForm()
+        openConfirmation()
+        resetForm()
+    } else {
+        const oldUser = users.find(user => user.email === email)
+        if (oldUser) {
+            pwValid = setErrorFor(emailSubscribe, "Cet e-mail existe déjà dans notre base de données.")
+        } else { // if a user already exists then we push the new user object in the array users
+            users.push(newUser)
+            console.table(users)
+            closeForm()
+            openConfirmation()
+            resetForm()
+        }
+    }
+}
+
+/*
     // Convert the user object to a JSON string
     const userJson = JSON.stringify(user);
 
     // Save the user JSON string to localStorage
     localStorage.setItem('user', userJson);
-}
+*/
 
+
+// Confirmation modal after the form is filled up
 function openConfirmation() {
     confirmation.classList.add("show")
 }
 
+// click handler on the confirmation Button
 confirmationButton.addEventListener("click", (e) => {
     closeConfirmation()
 })
 
+// Once the button is click the confirmation modal is closed
 function closeConfirmation() {
     confirmation.classList.remove("show")
 }
 
+
+
+
+// Toggle visibility passwords
+eyePW.addEventListener("click", (e) => {
+    togglePW()
+})
+eyeSlashPW.addEventListener("click", (e) => {
+    togglePW()
+})
+eyePWCheck.addEventListener("click", (e) => {
+    togglePWCheck()
+})
+eyeSlashPWCheck.addEventListener("click", (e) => {
+    togglePWCheck()
+})
+function togglePW() {
+        eyePW.classList.toggle("show")
+        eyeSlashPW.classList.toggle("show")
+        if (eyePW.classList.contains("show")) {
+            pwSubscribe.type = "text"
+        } else {
+            pwSubscribe.type ="password"
+        }
+}
+function togglePWCheck() {
+        eyePWCheck.classList.toggle("show")
+        eyeSlashPWCheck.classList.toggle("show")
+        if (eyePWCheck.classList.contains("show")) {
+            pwCheckSubscribe.type = "text"
+        } else {
+            pwCheckSubscribe.type ="password"
+        }
+}
+
 /* PROBLEMES A REGLER: 
+• ERRORS ON THE ICONS VIEW PASSWORD
+• DISPLAY OR NOT THE PASSWORD
 • CREATE USER LOCALSTORAGE
 • CENTER OK BUTTON CONFIRMATION
 */

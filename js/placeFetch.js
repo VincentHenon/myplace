@@ -296,8 +296,8 @@ function renderHTML(place) {
         document.querySelectorAll(".bullet").forEach((bullet, i) => {
             if ((i) === currentIndex) {
                 bullet.classList.add("active")
-                console.log("current image is : ", currentIndex)
-                console.log("image index 'i' is :", i)
+                //console.log("current image is : ", currentIndex)
+                //console.log("image index 'i' is :", i)
             } else {
                 bullet.classList.remove("active")
             }

@@ -1029,11 +1029,28 @@ form {
     border: 1px solid var(--clr_medium);
 }
 
-.form-control i{
+.form-icon {
     position: absolute;
     top: 40px;
     right: 10px;
     visibility: hidden;
+}
+
+.PW-icons {
+    position: absolute;
+    top: 40px;
+    right: 31px;
+    color: var(--clr_primary);
+    transition: color .3s ease;
+    visibility: hidden;
+}
+
+.PW-icons:hover {
+    cursor: pointer;
+}
+
+.PW-icons.show {
+    visibility: visible;
 }
 
 .form-control.success i.fa-check-circle {
@@ -1115,7 +1132,7 @@ input::placeholder {
     box-shadow: 0 2px 5px rgba(0,0,0, .3);
     display: grid;
     align-items: center;
-    width: 400px;
+    width: auto;
     max-width: 100%;
     border-radius: 5px;
     overflow: hidden;
@@ -1136,6 +1153,7 @@ input::placeholder {
     font-size: 16px;
     padding: 10px;
     width: 50%;
+    margin: 0 auto;
     font-family: inherit;
     transition: border-color .3s ease,
                 background-color .3s ease,
