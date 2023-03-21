@@ -63,27 +63,6 @@ async function init() {
         updateResults(newData);// then update the html
     });
 
-    /*searchInput.addEventListener("keyup", (event) => {
-
-        const regex = /^[a-zA-ZÀ-ÖØ-öø-ÿ -]*$/;
-        const inputValue = searchInput.value.trim();
-        if (!regex.test(inputValue)) {
-            regexError.textContent = "Please enter only letters and spaces";
-        } else {
-            regexError.textContent = "";
-        }
-
-        if (searchInput.value.length === 0) {
-            updateResults(dataSorted)
-        }
-    });
-
-    searchInput.addEventListener("invalid", (event) => {
-        event.preventDefault(); // Prevents the browser from showing its own error message
-        event.target.setCustomValidity("Please enter only letters and spaces");
-    });*/
-
-
     //handler Search Button
     searchButton.addEventListener("click", () => {
         locationSearch()
@@ -98,7 +77,10 @@ async function init() {
     //function search when search button is clicked or when Enter key is pressed
     const locationSearch = () => {
         searchResult.innerHTML = "" //clear the html list of places while typing
-        const searchedString = searchInput.value.toLowerCase();// make the input in lowercase
+        
+        //const searchedString = searchInput.value.toLowerCase();// make the input in lowercase
+        let searchedString = searchInput.value;// make the input in lowercase
+        console.log(searchedString)
         const filteredArr = dataSorted.filter(el => el.location.toLowerCase().includes(searchedString))
         updateResults(filteredArr)
     }
